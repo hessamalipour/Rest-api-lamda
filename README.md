@@ -1,4 +1,5 @@
 Rest--api-lambda
+
 An example of deploying AWS Lambda functions with Ansible
 “Deploying Amazon Lambda Functions with Ansible.”
 
