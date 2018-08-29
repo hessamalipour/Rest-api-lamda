@@ -22,7 +22,7 @@ There is two codes `put.py` and `get.py` to test **Lambda**. First need to add t
 
 1. collect the API Gateway address in outputs of CloudFormation "**apiGatewayInvokeURL**"
 2. Edit `put.py` and `get.py` and replace your address in line '5': 
-"`url = '{API Gateway address}/hello/hessam'`"**. In addition in line '6' you can change date of birth "`data = {"dateOfBirth": "2000-08-25"}`"
+"`url = '{API Gateway address}/hello/hessam'`". In addition in line '6' you can change date of birth "`data = {"dateOfBirth": "2000-08-25"}`"
 3. First run `python put.py` first will check if existed table's **hessam** in DynamoDB, if not exited, will create table and show this message:
 "`{
     "error": "DynamoDB is creating. please try again one minute later."
