@@ -122,7 +122,7 @@ Resources:
 
 Outputs:
   apiGatewayInvokeURL:
-    Value: !Sub "https://${apiGateway}.execute-api.${AWS::Region}.amazonaws.com/${apiGateway}"
+    Value: !Sub "https://${apiGateway}.execute-api.${AWS::Region}.amazonaws.com/dev"
 
   lambdaArn:
     Value: !GetAtt "LambdaFunction.Arn"
